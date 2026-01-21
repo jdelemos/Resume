@@ -1,0 +1,114 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{titlesec}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}
+  {\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.5pt, topsep=1pt}
+
+\newcommand{\resumeItem}[1]{\item {#1}}
+\newcommand{\resumeSubheading}[4]{
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabularx}
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Jonathon Delemos}} \\
+    \vspace{4pt}
+    Folsom, CA $\vert$ 916-220-1158 $\vert$ \underline{\href{mailto:delemos1@seas.upenn.edu}{delemos1@seas.upenn.edu}} $\vert$  \underline{\href{https://github.com/jdelemos}{Github}}
+\end{center}
+
+\section*{EDUCATION}
+
+\resumeSubheading
+{University of Pennsylvania}{Aug. 2025 -- Present}
+{Masters of Science in Artificial Intelligence (Expected 2027 Graduation)}{Philadelphia, PA}
+\begin{itemize}
+    \resumeItem{Coursework: Artificial Intelligence, Natural Language Processing, Machine Learning for Data Science, Statistics for Data Science, Research: Bayes Theorem Mathematics Simplification Paper}
+\end{itemize}
+
+\resumeSubheading
+{California State University, Sacramento}{Aug. 2023 -- May 2025 (Graduated)}
+{Bachelors of Science in Computer Science}{Sacramento, CA}
+\begin{itemize}
+    \resumeItem{Coursework: Data Structures and Algorithms, Object-Oriented Computer Graphics Programming,
+        Software Engineering, Relational Database Management Systems, Computability Theory, Operating Systems}
+\end{itemize}
+
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Programming Languages:} C\#, HTML, CSS, JavaScript, Python, Shell Scripting,  Fortran, Excel, Visual Basic
+    \item \textbf{Framework/Tools:} .NET, Angular, Git, Linux, Vim, Visual Studio, React, Jira, MongoDB, CLI, Eclipse
+    \item \textbf{Database Systems:} PostgreSQL, Oracle SQL, MySQL, MongoDB
+\end{itemize}
+
+\section*{EXPERIENCE}
+
+\resumeSubheading
+{Full-Stack Web Developer}{Folsom, CA}
+{Riley Consulting Services LLC}{Oct 2025 -- Present}
+\begin{itemize}
+    \resumeItem{Built State RFI/RFP web applications from storyboard to production using .NET, Angular, TypeScript, C\#, and PostgreSQL.
+        Developed PostgreSQL schemas, C\# backend services, and Angular front-end components.
+        Managed feature branches in GitHub and submitted pull requests for senior review.
+        Authored Azure DevOps stories with descriptions, story points, and acceptance criteria.
+        Wrote xUnit and Playwright tests to cover unit and functional scenarios.}
+\end{itemize}
+\resumeSubheading
+{Director of Operations}{Folsom, CA}
+{Mathnasium, Folsom}{Dec. 2023 -- Present}
+\begin{itemize}
+    \resumeItem{Monitor over two hundred student lesson plans. Develop student lesson plans to align with Folsom educational standards.
+        Teach mathematics from basic arithmetic through advanced calculus. Attend corporate meetings to improve our ability to market the
+        Assess student strengths and weaknesses and adjust instruction to meet needs.}
+\end{itemize}
+\resumeSubheading
+{Data Structures and Algorithms / Linear Algebra Tutor}{United States}
+{California State University, Sacramento}{Jan. 2024 -- May 2024}
+\begin{itemize}
+    \resumeItem{Provide one-on-one and group tutoring in data structures, algorithms, and linear algebra. Develop and deliver instructional materials, including lecture notes, practice problems, and study guides. Assess student understanding and provide targeted explanations to improve problem-solving skills}
+\end{itemize}
+\resumeSubheading
+{Timothy J. Durbin Inc.}{Aug. 2024 -- Present}
+{Technical Consultant}{United States}
+\begin{itemize}
+    \resumeItem{Write scripts to filter excel spreadsheet data. Provide technical advice to senior engineering team on tools, algorithms, and time complexity. Collaborate with engineers to integrate algorithms into existing systems and provide technical support. Offer solutions to integrate artificial intelligence models into company workflows.}
+\end{itemize}
+
+
+\section*{PROJECTS}
+\textbf{Machine Learning - Computer Vision - Target Moving Objects: Roboflow/yolov8}
+\begin{itemize}
+    \resumeItem{Built a model to detect and differentiate moving objects on screen for monitoring and prediction workflows}
+    \resumeItem{Created a custom dataset by capturing screenshots and annotating targets; trained on 100+ labeled samples}
+    \resumeItem{Trained the model using Roboflow and yolov8, iterating to achieve best-weight performance}
+    \resumeItem{Implemented a Python script to capture screen activity, run inference, and output target coordinates}
+\end{itemize}
+
+\textbf{Near Earth Object Working System (NeOWS) NASA API Program Development/Testing}
+\begin{itemize}
+    \resumeItem{Built a program that calls the NASA API to capture and analyze near-Earth objects}
+    \resumeItem{Extracted orbital parameters such as semi-major axis, eccentricity, and inclination to forecast positions}
+    \resumeItem{Captured size and mass data to estimate potential impact energy and collision risk}
+\end{itemize}
+
+
+
+
+\end{document}
